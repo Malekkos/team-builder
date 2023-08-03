@@ -25,8 +25,8 @@ function App() {
         <h1>Our valuable team</h1>
         {teamMember.map((member, idx) => {
           return (
-            <div className="wrapper">
-              <h2 key={idx} className="nameAndJob">
+            <div className="wrapper" key={idx}>
+              <h2 className="nameAndJob">
                 {member.name} is a {member.job}
               </h2>
               <div className="wrapper2">
